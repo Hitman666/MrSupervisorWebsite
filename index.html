@@ -3,11 +3,35 @@
 
 <head>
     <title>My Personal Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header,
+        section {
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        .boldano {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <h1>John Doe 2</h1>
+        <h1 class="boldano">John Doe 2</h1>
         <nav>
             <ul>
                 <li><a href="#about">About Me</a></li>
@@ -26,7 +50,9 @@
     <section id="projects">
         <h2>Projects</h2>
         <ul>
-            <li><a href="http://example.com/project1">Project 1</a></li>
+            <li>
+                <a href="projekt.html">Project 1</a>
+            </li>
             <li><a href="http://example.com/project2">Project 2</a></li>
             <!-- Add more projects here -->
         </ul>
@@ -34,7 +60,7 @@
 
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>Email: john.doe@example.com</p>
+        <p class="boldano">Email: john.doe@example.com</p>
         <!-- You can add a contact form here in future -->
     </section>
 </body>
